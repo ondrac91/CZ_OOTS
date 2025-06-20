@@ -1,6 +1,6 @@
 # Návody pro připojení k CZ-OOTS
 
-Zde najdete rozdělené návody pro jednotlivé části integrace.
+Zde najdete rozdělené návody pro jednotlivé části integrace. Doporučuji začít **[Videonávodem](videonavod.mov)**
 
 ## 📚 Obsah
 
