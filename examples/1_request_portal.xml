@@ -12,7 +12,9 @@
                                 <pais:KontextKod>A12251.1</pais:KontextKod>
                                 <pais:InstanceId>1</pais:InstanceId>
                                 <!-- Data dotazu -->
+                                <!-- Tento element je klicovy pro vytvoreni proceduralniho portalu -->
                                 <sdg:ProceduraSdg>00</sdg:ProceduraSdg>
+                              <!-- Tento element je adresa kam bude uzivatel presmerovan -->
                                 <sdg:CallBackAddress>https://google.com</sdg:CallBackAddress>
                                 <sdg:Instituce>
                                     <sdg:Identifikator>xxx</sdg:Identifikator>
