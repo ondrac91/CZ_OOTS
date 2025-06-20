@@ -20,7 +20,7 @@ Tento návod shrnuje doporučený postup pro nastavení testovacího připojení
 
 5. **Volání přes CMS (testovací AIS)**  
    Pro testování doporučujeme používat tzv. **testovací AIS**.  
-   Příklady volání naleznete ve složce [📂 examples](../examples/)
+   Příklady volání naleznete ve složce [📂 examples](/examples/)
 
    - V 1. requestu žádáme o vytvoření procedurálního portálu. Důležité vstupní parametry:
      - `sdg:ProceduraSdg` – zatím dostupná pouze testovací procedura s kódem `00`
