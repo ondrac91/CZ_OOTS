@@ -43,15 +43,21 @@ Tento návod shrnuje doporučený postup pro nastavení testovacího připojení
    - **Činnostní role:** `CR44328`  
    - **Kontextový kód:** `A12251.1`
 
-5. **Volání přes CMS**  
+5. **Volání přes CMS (testovací AIS)**  
    - Pro testování doporučujeme používat tzv. **testovací AIS**, který je dostupný v rámci CMS. Příklady volání naleznete ve složce [📂 Složka s příklady](/examples/)
-   - v requestu jsou důležité parametry :
+   - v 1. requestu žádáme o vytvoření tzv. procedurálního portálu a jsou tak důležité tyto vstupní parametry :
     - **sdg:ProceduraSdg** - zatím dostupná jen testovací procedura s kódem 00
     - **sdg:CallBackAddress** - jedná se o adresu kam uživatel bude přesměrován zpět z procedurálního portálu
+      
+ - Výstupem tohoto request je: 
     - **sdg:SdgRequestId** - unikátní identifikátor žádosti, používáme pak pro zjištění stavu a stáhnutí důkazů
-
-6. **Přihlašování přes NIA (testovací režim)**  
-   Využívejte **testovací identity** dostupné v rámci NIA testovacího prostředí.
+    - **sdg:RedirecrUrl** - jedná se o URL kam uživatele přesměrujeme
+      
+ - Následuje proces, kdy uživatel projde procedurálním portálem
+    - Zde využívejte testovací identity NIA
+      
+ - Po dokončení procesu následuje 2. request na zjištění stavu a  stáhnutí důkazů. jako vstupní parametr používáme
+    - **sdg:SdgRequestId** - unikátní identifikátor žádosti, používáme pak pro zjištění stavu a stáhnutí důkazů
 
 ---
 
