@@ -6,3 +6,4 @@ Zde najdete rozdělené návody pro jednotlivé části integrace. Doporučuji z
 
 - [Prerekvizity k připojení](parts/prerekvizity.md)
 - [Postup testování komunikace přes CMS - Testovací AIS](parts/testovani.md)
+- [Oficiální dokumentace ](docs)
