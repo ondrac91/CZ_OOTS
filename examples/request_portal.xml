@@ -1,0 +1,58 @@
+
+                    <SdgDotaz xmlns="urn:cz:isvs:a12251:schemas:PaisSdgTypy:v1"
+                    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="urn:cz:isvs:a12251:schemas:PaisSdgTypy:v1 PaisSdgTypy.xsd"
+                    xmlns:paisd="urn:cz:isvs:gsb:schemas:PaisDotazyTypy:v1"
+                    xmlns:pais="urn:cz:isvs:gsb:schemas:PaisDataTypy:v1"
+                    xmlns:sdg="urn:cz:isvs:a12251:schemas:PaisSdgTypy:v1"
+                    >
+                        <paisd:Entita>
+                            <sdg:PaisSdgZiskejUrlData xsi:type="sdg:PaisSdgZiskejUrlDataType">
+                                <pais:Identifikator>KontextDataType</pais:Identifikator>
+                                <pais:KontextKod>A12251.1</pais:KontextKod>
+                                <pais:InstanceId>1</pais:InstanceId>
+                                <!-- Data dotazu -->
+                                <sdg:ProceduraSdg>00</sdg:ProceduraSdg>
+                                <sdg:CallBackAddress>https://google.com</sdg:CallBackAddress>
+                                <sdg:Instituce>
+                                    <sdg:Identifikator>xxx</sdg:Identifikator>
+                                    <sdg:JmenoInstituce>University of Prague</sdg:JmenoInstituce>
+                                    <sdg:Adresa>
+                                        <sdg:AdresaKompletni>Prince Street 15, 1050 Copenhagen, Denmark</sdg:AdresaKompletni>
+                                        <sdg:OrientacniCislo>15</sdg:OrientacniCislo>
+                                        <sdg:PSC>1050</sdg:PSC>
+                                        <sdg:PostaMesto>Copenhagen</sdg:PostaMesto>
+                                        <sdg:Ulice>Prince Street</sdg:Ulice>
+                                        <!-- The value MUST be coded using the code list 'CountryIdentificationCode' (ISO 3166-1 alpha-2 codes). -->
+                                        <sdg:NUTS1>DK</sdg:NUTS1>
+                                        <!-- The value MUST be coded using the code list 'NUTS' (Nomenclature of Territorial Units for Statistics). -->
+                                        <sdg:NUTS3>DK011</sdg:NUTS3>
+                                    </sdg:Adresa>
+                                </sdg:Instituce>
+                                <sdg:Zadatel>
+                                    <sdg:FyzickaOsoba>
+                                        <!-- Optional -->
+                                        <sdg:Identifikator>xxx</sdg:Identifikator>
+                                        <sdg:Prijmeni>Prijmeni</sdg:Prijmeni>
+                                        <sdg:Jmeno>Jméno</sdg:Jmeno>
+                                        <sdg:DatumNarozeni>1967-05-26</sdg:DatumNarozeni>
+                                        <!-- Optional -->
+                                        <sdg:RodnePrijmeni>Příjmení</sdg:RodnePrijmeni>
+                                        <sdg:MistoNarozeni>Město</sdg:MistoNarozeni>
+                                        <sdg:Adresa>
+                                            <sdg:AdresaKompletni>Prince Street 15, 1050 Copenhagen, Denmark</sdg:AdresaKompletni>
+                                            <sdg:OrientacniCislo>15</sdg:OrientacniCislo>
+                                            <sdg:PSC>1050</sdg:PSC>
+                                            <sdg:PostaMesto>Copenhagen</sdg:PostaMesto>
+                                            <sdg:Ulice>Prince Street</sdg:Ulice>
+                                            <!-- The value MUST be coded using the code list 'CountryIdentificationCode' (ISO 3166-1 alpha-2 codes). -->
+                                            <sdg:NUTS1>DK</sdg:NUTS1>
+                                            <!-- The value MUST be coded using the code list 'NUTS' (Nomenclature of Territorial Units for Statistics). -->
+                                            <sdg:NUTS3>DK011</sdg:NUTS3>
+                                        </sdg:Adresa>
+                                        <sdg:Pohlavi>M</sdg:Pohlavi>
+                                    </sdg:FyzickaOsoba>
+                                </sdg:Zadatel>
+                            </sdg:PaisSdgZiskejUrlData>
+                        </paisd:Entita>
+                    </SdgDotaz>

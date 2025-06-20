@@ -1,0 +1,18 @@
+<SdgDotaz xmlns="urn:cz:isvs:a12251:schemas:PaisSdgTypy:v1"
+xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="urn:cz:isvs:a12251:schemas:PaisSdgTypy:v1 PaisSdgTypy.xsd"
+xmlns:paisd="urn:cz:isvs:gsb:schemas:PaisDotazyTypy:v1"
+xmlns:pais="urn:cz:isvs:gsb:schemas:PaisDataTypy:v1"
+xmlns:sdg="urn:cz:isvs:a12251:schemas:PaisSdgTypy:v1"
+>
+    <paisd:Entita>
+        <sdg:PaisSdgDukazVysledekData xsi:type="sdg:PaisSdgDukazVysledekDataType">
+            <pais:Identifikator>KontextDataType</pais:Identifikator>
+            <pais:KontextKod>A12251.1</pais:KontextKod>
+            <pais:InstanceId>1</pais:InstanceId>
+            <!-- Data dotazu -->
+            <sdg:SdgRequestId>9dfa9712-47d8-4b71-a34f-9d0d8e922b7c</sdg:SdgRequestId>
+
+        </sdg:PaisSdgDukazVysledekData>
+    </paisd:Entita>
+</SdgDotaz>
