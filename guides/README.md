@@ -44,7 +44,11 @@ Tento návod shrnuje doporučený postup pro nastavení testovacího připojení
    - **Kontextový kód:** `A12251.1`
 
 5. **Volání přes CMS**  
-   Pro testování doporučujeme používat tzv. **testovací AIS**, který je dostupný v rámci CMS. Příklady volání naleznete ve složce [📂 Složka s příklady](/examples/)
+   - Pro testování doporučujeme používat tzv. **testovací AIS**, který je dostupný v rámci CMS. Příklady volání naleznete ve složce [📂 Složka s příklady](/examples/)
+   - v requestu jsou důležité parametry :
+    - **sdg:ProceduraSdg** - zatím dostupná jen testovací procedura s kódem 00
+    - **sdg:CallBackAddress** - jedná se o adresu kam uživatel bude přesměrován zpět z procedurálního portálu
+    - **sdg:SdgRequestId** - unikátní identifikátor žádosti, používáme pak pro zjištění stavu a stáhnutí důkazů
 
 6. **Přihlašování přes NIA (testovací režim)**  
    Využívejte **testovací identity** dostupné v rámci NIA testovacího prostředí.
