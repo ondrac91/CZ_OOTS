@@ -16,6 +16,7 @@ Tento návod shrnuje doporučený postup pro nastavení testovacího připojení
    - Agenda: `A3791`
    - Činnostní role: `CR44328`
    - Kontextový kód: `A12251.1`
+   - Formulář: `G1(gsbCtiData)`
 
 5. **Volání přes CMS (testovací AIS)**  
    Pro testování doporučujeme používat tzv. **testovací AIS**.  
