@@ -44,7 +44,7 @@ Tento návod shrnuje doporučený postup pro nastavení testovacího připojení
    - **Kontextový kód:** `A12251.1`
 
 5. **Volání přes CMS**  
-   Pro testování doporučujeme používat tzv. **testovací AIS**, který je dostupný v rámci CMS. Příklady volání naleznete ve složce [📂 Složka s příklady](examples/)
+   Pro testování doporučujeme používat tzv. **testovací AIS**, který je dostupný v rámci CMS. Příklady volání naleznete ve složce [📂 Složka s příklady](/examples/)
 
 6. **Přihlašování přes NIA (testovací režim)**  
    Využívejte **testovací identity** dostupné v rámci NIA testovacího prostředí.
