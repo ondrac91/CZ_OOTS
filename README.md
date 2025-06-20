@@ -1,4 +1,4 @@
-# OOTS CZ – Návody a příklady pro českou implementaci
+# OOTS-CZ  Návody a příklady pro českou implementaci
 
 Tento repozitář slouží jako neoficiální sbírka návodů, ukázkových požadavků a poznámek k české implementaci systému **OOTS (Onle only technical system)**.
 
