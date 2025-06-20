@@ -11,7 +11,7 @@ xmlns:sdg="urn:cz:isvs:a12251:schemas:PaisSdgTypy:v1"
             <pais:KontextKod>A12251.1</pais:KontextKod>
             <pais:InstanceId>1</pais:InstanceId>
             <!-- Data dotazu -->
-            <sdg:SdgRequestId>9dfa9712-47d8-4b71-a34f-9d0d8e922b7c</sdg:SdgRequestId>
+            <sdg:SdgRequestId>DOPLNTE ID</sdg:SdgRequestId>
 
         </sdg:PaisSdgDukazVysledekData>
     </paisd:Entita>
