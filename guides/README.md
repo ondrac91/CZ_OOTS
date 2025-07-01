@@ -2,7 +2,7 @@
 
 Zde najdete rozdělené návody pro jednotlivé části integrace. Doporučuji začít **[Videonávodem](videonavod.mov)** (je třeba jej stáhnout).
 
-V případě, že si připojení budete chtít zkoušet napřímo (ne z aplikace Testovací AIS) tak URL TEST rozhraní je  **https://egsbws.cms2ts.cz/**
+V případě, že si připojení budete chtít zkoušet napřímo (ne z aplikace Testovací AIS) tak URL TEST rozhraní je  **https://twsisss.dia.cms2.cz**
 
 ## 📚 Obsah
 
