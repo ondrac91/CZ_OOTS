@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">gsbCtiData</Action>
+  </s:Header>
+  <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CtiData xmlns="urn:cz:isvs:gsb:schemas:GsbCtiData:v1">
+      <ZadatelInfo xmlns="urn:cz:isvs:gsb:schemas:GsbAbstract:v1">
+        <Agenda xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">A3791</Agenda>
+        <AgendovaRole xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">CR44302</AgendovaRole>
+        <Ovm xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">68407700</Ovm>
+        <Ais xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">14577</Ais>
+        <Subjekt xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">CVUT</Subjekt>
+        <Uzivatel xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">dolezon3</Uzivatel>
+      </ZadatelInfo>
+      <ZadostAgendaInfo xmlns="urn:cz:isvs:gsb:schemas:GsbAbstract:v1">
+        <AgendaCasZadosti xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">2025-02-21T16:20:39.6744486+01:00</AgendaCasZadosti>
+        <AgendaZadostId xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">c16f7750-b155-4f35-8e5f-2d5a118849fd</AgendaZadostId>
+      </ZadostAgendaInfo>
+      <AisCilInfo xmlns="urn:cz:isvs:gsb:schemas:GsbAbstract:v1">10339</AisCilInfo>
+      <DataInfo xmlns="urn:cz:isvs:gsb:schemas:GsbAbstract:v1">
+        <KontextInfo>
+          <Kod xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">A12251.1</Kod>
+        </KontextInfo>
+      </DataInfo>
+      <EntitaInfo xmlns="urn:cz:isvs:gsb:schemas:GsbAbstract:v1"/>
+      <RezimInfo>sync</RezimInfo>
+      <Zadost>
+        <CtiDataData>
+          <sdg:SdgDotaz xmlns="urn:cz:isvs:a12251:schemas:PaisSdgTypy:v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:cz:isvs:a12251:schemas:PaisSdgTypy:v1 PaisSdgTypy.xsd" xmlns:paisd="urn:cz:isvs:gsb:schemas:PaisDotazyTypy:v1" xmlns:pais="urn:cz:isvs:gsb:schemas:PaisDataTypy:v1" xmlns:sdg="urn:cz:isvs:a12251:schemas:PaisSdgTypy:v1">
+            <paisd:Entita>
+              <sdg:PaisSdgZiskejUrlData xsi:type="sdg:PaisSdgZiskejUrlDataType">
+                <pais:Identifikator>KontextDataType</pais:Identifikator>
+                <pais:KontextKod>A12251.1</pais:KontextKod>
+                <pais:InstanceId>1</pais:InstanceId>
+                <!-- Data dotazu -->
+                <sdg:ProceduraSdg>00</sdg:ProceduraSdg>
+                <sdg:CallBackAddress>https://google.com</sdg:CallBackAddress>
+                <sdg:Instituce>
+                  <sdg:Identifikator>xxx</sdg:Identifikator>
+                  <sdg:JmenoInstituce>University of Prague</sdg:JmenoInstituce>
+                  <sdg:Adresa>
+                    <sdg:AdresaKompletni>Prince Street 15, 1050 Copenhagen, Denmark</sdg:AdresaKompletni>
+                    <sdg:OrientacniCislo>15</sdg:OrientacniCislo>
+                    <sdg:PSC>1050</sdg:PSC>
+                    <sdg:PostaMesto>Copenhagen</sdg:PostaMesto>
+                    <sdg:Ulice>Prince Street</sdg:Ulice>
+                    <!-- The value MUST be coded using the code list 'CountryIdentificationCode' (ISO 3166-1 alpha-2 codes). -->
+                    <sdg:NUTS1>DK</sdg:NUTS1>
+                    <!-- The value MUST be coded using the code list 'NUTS' (Nomenclature of Territorial Units for Statistics). -->
+                    <sdg:NUTS3>DK011</sdg:NUTS3>
+                  </sdg:Adresa>
+                </sdg:Instituce>
+                <sdg:Zadatel>
+                  <sdg:FyzickaOsoba>
+                    <!-- Optional -->
+                    <sdg:Identifikator>xxx</sdg:Identifikator>
+                    <sdg:Prijmeni>Prijmeni</sdg:Prijmeni>
+                    <sdg:Jmeno>Jméno</sdg:Jmeno>
+                    <sdg:DatumNarozeni>1967-05-26</sdg:DatumNarozeni>
+                    <!-- Optional -->
+                    <sdg:RodnePrijmeni>Příjmení</sdg:RodnePrijmeni>
+                    <sdg:MistoNarozeni>Město</sdg:MistoNarozeni>
+                    <sdg:Adresa>
+                      <sdg:AdresaKompletni>Prince Street 15, 1050 Copenhagen, Denmark</sdg:AdresaKompletni>
+                      <sdg:OrientacniCislo>15</sdg:OrientacniCislo>
+                      <sdg:PSC>1050</sdg:PSC>
+                      <sdg:PostaMesto>Copenhagen</sdg:PostaMesto>
+                      <sdg:Ulice>Prince Street</sdg:Ulice>
+                      <!-- The value MUST be coded using the code list 'CountryIdentificationCode' (ISO 3166-1 alpha-2 codes). -->
+                      <sdg:NUTS1>DK</sdg:NUTS1>
+                      <!-- The value MUST be coded using the code list 'NUTS' (Nomenclature of Territorial Units for Statistics). -->
+                      <sdg:NUTS3>DK011</sdg:NUTS3>
+                    </sdg:Adresa>
+                    <sdg:Pohlavi>M</sdg:Pohlavi>
+                  </sdg:FyzickaOsoba>
+                </sdg:Zadatel>
+              </sdg:PaisSdgZiskejUrlData>
+            </paisd:Entita>
+          </sdg:SdgDotaz>
+        </CtiDataData>
+      </Zadost>
+    </CtiData>
+  </s:Body>
+</s:Envelope>
