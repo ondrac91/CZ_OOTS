@@ -7,7 +7,7 @@
     <CtiData xmlns="urn:cz:isvs:gsb:schemas:GsbCtiData:v1">
       <ZadatelInfo xmlns="urn:cz:isvs:gsb:schemas:GsbAbstract:v1">
         <Agenda xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">A3791</Agenda>
-        <AgendovaRole xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">CR44302</AgendovaRole>
+        <AgendovaRole xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">CR44328</AgendovaRole>
         <Ovm xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">68407700</Ovm>
         <Ais xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">14577</Ais>
         <Subjekt xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">CVUT</Subjekt>
