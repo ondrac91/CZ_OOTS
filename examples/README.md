@@ -6,6 +6,6 @@ Každý request má číselný prefix, který určuje **pořadí volání**.
 ## Použití
 
 - Requesty lze použít v testovací aplikaci **Testovací AIS**, která automaticky sestavuje SOAP hlavičky a obálku.
-- V nástrojích jako **Postman** je nutné sestavit celý SOAP request ručně (včetně hlavičky a obálky). Přikládám také celé request o procedurální portál, který vygeneruje Testovací AIS [ZDE](FULL_request_portal.xml)
+- V nástrojích jako **Postman** je nutné sestavit celý SOAP request ručně (včetně hlavičky a obálky). Přikládám také celé request o procedurální portál, který vygeneruje Testovací AIS [ZDE](full_request_portal.xml)
 
 📘 Podrobný postup integrace a testování najdete v sekci [guides](/guides).
