@@ -1,6 +1,8 @@
 # Návody pro připojení k CZ-OOTS
 
-Zde najdete rozdělené návody pro jednotlivé části integrace. Doporučuji začít **[Videonávodem](videonavod.mov)** (je třeba jej stáhnout)
+Zde najdete rozdělené návody pro jednotlivé části integrace. Doporučuji začít **[Videonávodem](videonavod.mov)** (je třeba jej stáhnout).
+
+V případě, že si připojení budete chtít zkoušet napřímo (ne z aplikace Testovací AIS) tak URL TEST rozhraní je  **https://egsbws.cms2ts.cz/**
 
 ## 📚 Obsah
 
