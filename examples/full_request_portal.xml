@@ -10,14 +10,12 @@
         <AgendovaRole xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">CR44328</AgendovaRole>
         <Ovm xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">68407700</Ovm>
         <Ais xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">14577</Ais>
-        <Subjekt xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">CVUT</Subjekt>
         <Uzivatel xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">dolezon3</Uzivatel>
       </ZadatelInfo>
       <ZadostAgendaInfo xmlns="urn:cz:isvs:gsb:schemas:GsbAbstract:v1">
-        <AgendaCasZadosti xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">2025-02-21T16:20:39.6744486+01:00</AgendaCasZadosti>
-        <AgendaZadostId xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">c16f7750-b155-4f35-8e5f-2d5a118849fd</AgendaZadostId>
+        <AgendaCasZadosti xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">2025-07-01T11:31:56.4890993+02:00</AgendaCasZadosti>
+        <AgendaZadostId xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">f060a629-166d-45ab-96ba-09921cea0651</AgendaZadostId>
       </ZadostAgendaInfo>
-      <AisCilInfo xmlns="urn:cz:isvs:gsb:schemas:GsbAbstract:v1">10339</AisCilInfo>
       <DataInfo xmlns="urn:cz:isvs:gsb:schemas:GsbAbstract:v1">
         <KontextInfo>
           <Kod xmlns="urn:cz:isvs:gsb:schemas:GsbTypy:v1">A12251.1</Kod>
@@ -27,14 +25,16 @@
       <RezimInfo>sync</RezimInfo>
       <Zadost>
         <CtiDataData>
-          <sdg:SdgDotaz xmlns="urn:cz:isvs:a12251:schemas:PaisSdgTypy:v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:cz:isvs:a12251:schemas:PaisSdgTypy:v1 PaisSdgTypy.xsd" xmlns:paisd="urn:cz:isvs:gsb:schemas:PaisDotazyTypy:v1" xmlns:pais="urn:cz:isvs:gsb:schemas:PaisDataTypy:v1" xmlns:sdg="urn:cz:isvs:a12251:schemas:PaisSdgTypy:v1">
+          <SdgDotaz xmlns="urn:cz:isvs:a12251:schemas:PaisSdgTypy:v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:cz:isvs:a12251:schemas:PaisSdgTypy:v1 PaisSdgTypy.xsd" xmlns:paisd="urn:cz:isvs:gsb:schemas:PaisDotazyTypy:v1" xmlns:pais="urn:cz:isvs:gsb:schemas:PaisDataTypy:v1" xmlns:sdg="urn:cz:isvs:a12251:schemas:PaisSdgTypy:v1">
             <paisd:Entita>
               <sdg:PaisSdgZiskejUrlData xsi:type="sdg:PaisSdgZiskejUrlDataType">
                 <pais:Identifikator>KontextDataType</pais:Identifikator>
                 <pais:KontextKod>A12251.1</pais:KontextKod>
                 <pais:InstanceId>1</pais:InstanceId>
                 <!-- Data dotazu -->
+                <!-- Tento element je klicovy pro vytvoreni proceduralniho portalu -->
                 <sdg:ProceduraSdg>00</sdg:ProceduraSdg>
+                <!-- Tento element je adresa kam bude uzivatel presmerovan -->
                 <sdg:CallBackAddress>https://google.com</sdg:CallBackAddress>
                 <sdg:Instituce>
                   <sdg:Identifikator>xxx</sdg:Identifikator>
@@ -77,7 +77,7 @@
                 </sdg:Zadatel>
               </sdg:PaisSdgZiskejUrlData>
             </paisd:Entita>
-          </sdg:SdgDotaz>
+          </SdgDotaz>
         </CtiDataData>
       </Zadost>
     </CtiData>
